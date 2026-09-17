@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Adult/Desktop/DAE 6 month cohort 2/OSFTD/MyFirstApp/MyFirstApp.csproj",
+      "projectUniqueName": "/Users/Adult/Desktop/DAE 6 month cohort 2/c#_1/OSFTD/MyFirstApp/MyFirstApp.csproj",
       "projectName": "MyFirstApp",
-      "projectPath": "/Users/Adult/Desktop/DAE 6 month cohort 2/OSFTD/MyFirstApp/MyFirstApp.csproj",
+      "projectPath": "/Users/Adult/Desktop/DAE 6 month cohort 2/c#_1/OSFTD/MyFirstApp/MyFirstApp.csproj",
       "packagesPath": "/Users/Adult/.nuget/packages/",
-      "outputPath": "/Users/Adult/Desktop/DAE 6 month cohort 2/OSFTD/MyFirstApp/obj/",
+      "outputPath": "/Users/Adult/Desktop/DAE 6 month cohort 2/c#_1/OSFTD/MyFirstApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Adult/.nuget/NuGet/NuGet.Config"
