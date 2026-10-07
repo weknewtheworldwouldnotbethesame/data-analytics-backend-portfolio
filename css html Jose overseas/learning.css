@@ -1,0 +1,33 @@
+h1 {                                                             /* Chooses all h1 headings; starts their styles. */
+    color: navy;
+    margin-bottom: 24px;                                          /* Leaves space below the heading. */                                               /* Makes the text navy blue; ends this instruction. */
+}                                                                /* Ends the styles for h1 headings. */
+body {                                                           /* Chooses the page's body. */
+    font-family: Arial, sans-serif;
+    padding: 20px;     
+    max-width: 800px;                                              /* Keeps the content from getting too wide. */                                             /* Adds space inside the body. */                              /* Uses Arial, with a backup font. */
+}                                                                /* Ends this group of styles. */
+section {                          /* Chooses each section. */
+    background-color: lightgray;   /* Gives it a light gray background. */
+    padding: 16px;                 /* Adds a cushion inside it. */
+    margin-top: 24px;              /* Adds space above it. */
+}                                  /* Ends the section's styles. */
+h2 {                         /* Chooses section headings. */
+    color: darkgreen;        /* Makes their text dark green. */
+}
+
+p {                          /* Chooses every paragraph. */
+    line-height: 1.5;        /* Adds room between lines of text. */
+}
+
+ul {                         /* Chooses bullet lists. */
+    padding-left: 24px;      /* Leaves room for the bullets on the left. */
+}
+
+li {                         /* Chooses each list item. */
+    margin-bottom: 8px;      /* Adds space below each item. */
+}
+
+
+
+
