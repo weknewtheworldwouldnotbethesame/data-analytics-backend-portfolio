@@ -1,0 +1,28 @@
+<!DOCTYPE html>                                         <!-- Tells the browser this is HTML. -->
+<html>                                                  <!-- Starts the whole page. -->
+<head>                                                  <!-- Starts information about the page. -->
+    <title> Failure Tracking System</title>             <!-- Names the browser tab. -->
+    <link rel="stylesheet" href="learning.css">         <!-- Connects our CSS style file. -->
+    <script src="../JS Jose overseas/learning.js" defer></script> <!-- Connects JavaScript; defer waits until the HTML is ready. -->
+</head>                                                 <!-- Ends the page information. -->
+<body>                                                  <!-- Starts what visitors see. -->
+    <h1>Failure Tracking System</h1>                    <!-- The main heading: heading 1. -->
+    <p>This page helps me track problems and their fixes.</p> <!-- A paragraph of text. -->
+
+    <ul>                                                 <!-- Starts a bullet list: unordered list. -->
+        <li>What went wrong</li>                         <!-- One bullet: list item. -->
+        <li>How to fix it</li>                           <!-- Another list item. -->
+        <li>Whether it is fixed</li>                     <!-- Another list item. -->
+    </ul>
+        <section>                                        <!-- Groups related content. -->
+        <h2>Example Failure</h2>                         <!-- A heading for this section. -->
+        <p>Problem: The program closed suddenly.</p>     <!-- Describes the problem. -->
+        <p>Status: Not fixed yet.</p>                    <!-- Describes its progress. -->
+    </section>                                           <!-- Ends this group. -->                                                <!-- Ends the bullet list. -->
+    <section>                                           <!-- Our small JavaScript practice area. -->
+        <h2>Failure Status</h2>
+        <p id="practice-output" aria-live="polite">Waiting for JavaScript...</p> <!-- JavaScript can change this text. -->
+        <button id="check-status" type="button">Check status</button> <!-- We will connect this button in Lesson 3. -->
+    </section>
+</body>                                                  <!-- Ends the visible content. -->
+</html>                                                   <!-- Ends the whole page. -->
