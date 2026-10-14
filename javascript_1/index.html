@@ -1,0 +1,34 @@
+<!DOCTYPE html>                                      <!-- Tells the browser this is HTML. -->
+<html lang="en">                                     <!-- Starts the page and sets its language to English. -->
+<head>                                              <!-- Starts information about the page. -->
+    <meta charset="UTF-8">                           <!-- Supports text and special characters. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fits the page to the screen. -->
+    <title>Failure Tracking System</title>           <!-- Names the browser tab. -->
+
+    <link rel="stylesheet" href="learning.css">      <!-- Connects your CSS file in this folder. -->
+    <script src="learning.js" defer></script>        <!-- Connects JavaScript and waits until the HTML is ready. -->
+</head>                                             <!-- Ends information about the page. -->
+
+<body>                                              <!-- Starts what visitors see. -->
+    <h1>Failure Tracking System</h1>                 <!-- Shows the main heading. -->
+    <p>This page helps me track problems and their fixes.</p>
+
+    <ul>                                            <!-- Starts a bullet list. -->
+        <li>What went wrong</li>                     <!-- Shows one bullet item. -->
+        <li>How to fix it</li>
+        <li>Whether it is fixed</li>
+    </ul>                                           <!-- Ends the bullet list. -->
+
+    <section>                                       <!-- Groups the example failure information. -->
+        <h2>Example Failure</h2>
+        <p>Problem: The program closed suddenly.</p>
+        <p>Status: Not fixed yet.</p>
+    </section>                                      <!-- Ends the example section. -->
+
+    <section>                                       <!-- Groups the interactive JavaScript area. -->
+        <h2>Failure Status</h2>
+        <p id="practice-output" aria-live="polite">Waiting for JavaScript...</p> <!-- JavaScript updates this paragraph. -->
+        <button id="check-status" type="button">Check status</button> <!-- Clicking runs your JavaScript status check. -->
+    </section>                                      <!-- Ends the interactive section. -->
+</body>                                             <!-- Ends the visible content. -->
+</html>                                             <!-- Ends the page. -->
