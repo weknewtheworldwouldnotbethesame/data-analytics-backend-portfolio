@@ -1,34 +1,65 @@
-<!DOCTYPE html>                                      <!-- Tells the browser this is HTML. -->
-<html lang="en">                                     <!-- Starts the page and sets its language to English. -->
-<head>                                              <!-- Starts information about the page. -->
-    <meta charset="UTF-8">                           <!-- Supports text and special characters. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fits the page to the screen. -->
-    <title>Failure Tracking System</title>           <!-- Names the browser tab. -->
+<!DOCTYPE html> <!-- Tells the browser this is an HTML page. -->
+<html lang="en"> <!-- Sets the page language to English. -->
+<head>
+    <meta charset="UTF-8"> <!-- Supports text and special characters. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure Tracking System</title>
 
-    <link rel="stylesheet" href="learning.css">      <!-- Connects your CSS file in this folder. -->
-    <script src="learning.js" defer></script>        <!-- Connects JavaScript and waits until the HTML is ready. -->
-</head>                                             <!-- Ends information about the page. -->
+    <link rel="stylesheet" href="learning.css"> <!-- Connects your CSS. -->
+    <script src="learning.js" defer></script> <!-- Connects your JavaScript after HTML loads. -->
+</head>
 
-<body>                                              <!-- Starts what visitors see. -->
-    <h1>Failure Tracking System</h1>                 <!-- Shows the main heading. -->
-    <p>This page helps me track problems and their fixes.</p>
+<body>
+    <header> <!-- Groups the page heading and navigation. -->
+        <h1>Failure Tracking System</h1>
+        <p>This page helps me track problems and their fixes.</p>
 
-    <ul>                                            <!-- Starts a bullet list. -->
-        <li>What went wrong</li>                     <!-- Shows one bullet item. -->
-        <li>How to fix it</li>
-        <li>Whether it is fixed</li>
-    </ul>                                           <!-- Ends the bullet list. -->
+        <nav aria-label="Main navigation"> <!-- Contains navigation links. -->
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                
+            </a> <!-- Opens a separate webpage. -->
+        </nav>
+    </header>
 
-    <section>                                       <!-- Groups the example failure information. -->
-        <h2>Example Failure</h2>
-        <p>Problem: The program closed suddenly.</p>
-        <p>Status: Not fixed yet.</p>
-    </section>                                      <!-- Ends the example section. -->
+    <main> <!-- Contains the main content of the page. -->
+        <div class="dashboard"> <!-- Groups the dashboard sections. -->
+            <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='80' viewBox='0 0 120 80'%3E%3Crect width='120' height='80' rx='8' fill='navy'/%3E%3Cpath d='M30 40l20 20 40-40' fill='none' stroke='white' stroke-width='8'/%3E%3C/svg%3E"
+                alt="White check mark on a navy background"
+                width="120"
+                height="80"
+            > <!-- Displays an image included directly in this file. -->
 
-    <section>                                       <!-- Groups the interactive JavaScript area. -->
-        <h2>Failure Status</h2>
-        <p id="practice-output" aria-live="polite">Waiting for JavaScript...</p> <!-- JavaScript updates this paragraph. -->
-        <button id="check-status" type="button">Check status</button> <!-- Clicking runs your JavaScript status check. -->
-    </section>                                      <!-- Ends the interactive section. -->
-</body>                                             <!-- Ends the visible content. -->
-</html>                                             <!-- Ends the page. -->
+            <section>
+                <h2>What We Track</h2>
+                <ul> <!-- Creates a bullet list. -->
+                    <li>What went wrong</li>
+                    <li>How to fix it</li>
+                    <li>Whether it is fixed</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Example Failure</h2>
+                <p>Problem: The program closed suddenly.</p>
+                <p>Status: Not fixed yet.</p>
+            </section>
+
+            <section>
+                <h2>Failure Status</h2>
+                <p id="practice-output" aria-live="polite">
+                    Waiting for JavaScript...
+                </p> <!-- Your JavaScript updates this paragraph. -->
+
+                <button id="check-status" type="button">
+                    Check status
+                </button> <!-- Runs your JavaScript status check when clicked. -->
+            </section>
+        </div>
+    </main>
+
+    <footer> <!-- Contains information at the bottom of the page. -->
+        <p>New updates coming up soon!, Stay tuned as Jose will be working on this :D </p>
+    </footer>
+</body>
+</html>
