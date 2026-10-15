@@ -1,5 +1,5 @@
 h1 {                                                             /* Chooses all h1 headings; starts their styles. */
-    color: navy;
+    color: rgb(9, 128, 0);
     margin-bottom: 24px;                                          /* Leaves space below the heading. */                                               /* Makes the text navy blue; ends this instruction. */
 }                                                                /* Ends the styles for h1 headings. */
 body {                                                           /* Chooses the page's body. */
@@ -13,7 +13,7 @@ section {                          /* Chooses each section. */
     margin-top: 24px;              /* Adds space above it. */
 }                                  /* Ends the section's styles. */
 h2 {                         /* Chooses section headings. */
-    color: darkgreen;        /* Makes their text dark green. */
+    color: rgb(22, 75, 22);        /* Makes their text dark green. */
 }
 
 p {                          /* Chooses every paragraph. */

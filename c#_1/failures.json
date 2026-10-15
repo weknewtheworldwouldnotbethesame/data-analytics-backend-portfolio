@@ -1,0 +1,20 @@
+[
+  {
+    "OrderId": 1001,
+    "ErrorMessage": "The warehouse did not answer",
+    "IsResolved": true,
+    "FailedAt": "2026-10-08T13:44:08.1052448-04:00"
+  },
+  {
+    "OrderId": 1002,
+    "ErrorMessage": "The product was not found",
+    "IsResolved": true,
+    "FailedAt": "2026-10-08T13:44:08.1089596-04:00"
+  },
+  {
+    "OrderId": 1003,
+    "ErrorMessage": "The address is missing",
+    "IsResolved": true,
+    "FailedAt": "2026-10-08T13:44:08.1089635-04:00"
+  }
+]

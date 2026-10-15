@@ -1,0 +1,15 @@
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\bin\Debug\net10.0\OrderSyncFailure.exe
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\bin\Debug\net10.0\OrderSyncFailure.deps.json
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\bin\Debug\net10.0\OrderSyncFailure.runtimeconfig.json
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\bin\Debug\net10.0\OrderSyncFailure.dll
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\bin\Debug\net10.0\OrderSyncFailure.pdb
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.AssemblyInfoInputs.cache
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.AssemblyInfo.cs
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.csproj.CoreCompileInputs.cache
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.sourcelink.json
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.dll
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\refint\OrderSyncFailure.dll
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.pdb
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\OrderSyncFailure.genruntimeconfig.cache
+C:\Users\zeref\Desktop\Overseas work\c# Order Sync Failure\obj\Debug\net10.0\ref\OrderSyncFailure.dll
