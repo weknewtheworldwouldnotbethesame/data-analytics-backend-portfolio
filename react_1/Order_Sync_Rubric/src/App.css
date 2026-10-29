@@ -1,0 +1,40 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  color: #162033;
+}
+
+body { margin: 0; }
+
+.app {
+  max-width: 860px;
+  margin: 48px auto;
+  padding: 28px;
+  background: white;
+  border: 1px solid #dfe5ec;
+  border-radius: 14px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+
+.order-header { display: flex; align-items: center; gap: 16px; margin-bottom: 26px; }
+.order-image { width: 64px; height: 64px; }
+h1 { margin: 0 0 6px; font-size: 25px; }
+h2 { font-size: 19px; margin-top: 0; }
+p { margin: 0; color: #536174; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th, td { padding: 14px 12px; border-bottom: 1px solid #e5eaf0; }
+th { color: #526174; background: #f4f7fa; font-size: 14px; }
+.status { display: inline-block; border-radius: 999px; padding: 6px 10px; font-size: 13px; font-weight: bold; }
+.synced { background: #dcfce7; color: #166534; }
+.pending { background: #fef3c7; color: #854d0e; }
+.failed { background: #fee2e2; color: #991b1b; }
+button { padding: 8px 12px; background: #1d4ed8; border: 0; border-radius: 6px; color: white; cursor: pointer; }
+button:hover { background: #1e40af; }
+button:focus-visible { outline: 3px solid #93c5fd; outline-offset: 2px; }
+.note { font-size: 13px; margin-top: 14px; }
+@media (max-width: 600px) {
+  .app { margin: 12px; padding: 16px; }
+  h1 { font-size: 20px; }
+  th, td { padding: 10px 8px; }
+}

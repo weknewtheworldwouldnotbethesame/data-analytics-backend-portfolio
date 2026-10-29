@@ -1,0 +1,27 @@
+ORDER SYNC FAILURE TRACKING — REACT RUBRIC
+
+1. Functional Components
+   App.jsx, OrderHeader.jsx and OrderTable.jsx are functional components.
+   App renders OrderHeader and OrderTable on screen.
+
+2. Passing Props to Components
+   App passes title to OrderHeader; orders and onRetry to OrderTable.
+   Both child components use the props they receive.
+
+3. Style Components using CSS
+   src/App.css styles the header, order table, badges and button.
+
+4. Import and Export Components
+   OrderHeader.jsx and OrderTable.jsx each export a component.
+   App.jsx imports and displays both components.
+
+5. Apply Images to Components
+   OrderHeader.jsx displays public/order-sync.svg with an <img> tag.
+
+6. React Hooks
+   App.jsx uses useState to store orders and update the order status.
+   Queue retry changes a failed order to Pending in the local display.
+
+RUN
+   npm install
+   npm run dev
