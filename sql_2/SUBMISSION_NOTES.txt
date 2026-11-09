@@ -1,0 +1,28 @@
+SQL 2 FINAL PROJECT - SUBMISSION NOTES
+
+Required final database export: ticket_project.sql
+Format: PostgreSQL Plain SQL, generated with pg_dump 18.6.
+Includes both tables, all data, primary keys, unique username constraint,
+and tickets.user_id -> users.user_id foreign key.
+
+Validation: Restored successfully into a separate empty test database with
+ON_ERROR_STOP enabled. Verified 8 users, 13 tickets, 13 joined rows, and 4 distinct usernames.
+The temporary verification database was removed after the successful test.
+Added three sample users (client3, client4, client5), each with a ticket.
+All pre-existing users and tickets were preserved. Ticket 11 remains deleted.
+The JOIN now shows client1, client3, client4, and client5.
+
+Submit ticket_project.sql alongside your existing SQL Project Screenshots.pdf.
+Additional cursor-free PNG evidence is in Completed Screenshots.
+SQL ticket manager data.sql is the original JOIN query, not the export.
+
+Restore into a NEW EMPTY database using PostgreSQL 18 psql:
+  createdb -U postgres ticket_project_restored
+  psql -X -U postgres -d ticket_project_restored -v ON_ERROR_STOP=1 -f ticket_project.sql
+The export uses COPY and psql commands; use psql to restore it.
+
+Structure: Each table has a single-column primary key. User details are
+stored once in users; tickets references users through user_id. Under the
+project's stated attributes, non-key values describe their table's key,
+with no partial-key or transitive dependencies (3NF).
+
