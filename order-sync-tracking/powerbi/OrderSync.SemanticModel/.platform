@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Order Sync"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5b3ed6d1-d7e4-4376-b7ab-6e8b8a85e155"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "passed": 2,
+  "checks": [
+    "Unreachable receiver saved a Connection failure",
+    "Order, attempt, and five trace events survived an API restart"
+  ],
+  "order": {
+    "id": 1,
+    "orderNumber": "PERSIST-2001",
+    "customerName": "Fictional customer",
+    "product": "Keyboard",
+    "quantity": 1,
+    "channel": "Web",
+    "status": "Failed",
+    "createdAt": "2026-11-17T14:42:45.3092863",
+    "completedAt": null,
+    "lastError": "Cannot reach the receiver. Check that it is running.",
+    "dataOrigin": "Fictional interactive order",
+    "attempts": [
+      {
+        "id": 1,
+        "orderId": 1,
+        "attemptedAt": "2026-11-17T14:42:46.447425",
+        "outcome": "Failed",
+        "errorType": "Connection",
+        "errorMessage": "Cannot reach the receiver. Check that it is running.",
+        "responseBody": "",
+        "durationMs": 2209
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "orderId": 1,
+        "at": "2026-11-17T14:42:45.3101183",
+        "step": "Received",
+        "message": "Order received."
+      },
+      {
+        "id": 2,
+        "orderId": 1,
+        "at": "2026-11-17T14:42:45.310248",
+        "step": "Validated",
+        "message": "Required fields passed validation."
+      },
+      {
+        "id": 3,
+        "orderId": 1,
+        "at": "2026-11-17T14:42:45.3102485",
+        "step": "Saved",
+        "message": "Order stored in SQLite."
+      },
+      {
+        "id": 4,
+        "orderId": 1,
+        "at": "2026-11-17T14:42:46.4475955",
+        "step": "Sent",
+        "message": "Sent to the local receiver."
+      },
+      {
+        "id": 5,
+        "orderId": 1,
+        "at": "2026-11-17T14:42:48.734919",
+        "step": "Failed",
+        "message": "Cannot reach the receiver. Check that it is running."
+      }
+    ]
+  }
+}

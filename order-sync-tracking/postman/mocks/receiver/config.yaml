@@ -1,0 +1,5 @@
+version: 1
+name: order-receiver
+mockSrc: default.js
+description: Local HTTP receiver with controlled outcomes for fictional orders.
+interceptRequests: true

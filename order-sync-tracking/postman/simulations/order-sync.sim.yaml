@@ -1,0 +1,7 @@
+simulation: order-sync
+routing: path
+mocks:
+  - name: order-receiver
+    routeKey: receiver
+    origin: postman-echo.com
+    path: postman/mocks/receiver

@@ -1,0 +1,95 @@
+{
+  "source": "Postman CLI actual local collection run",
+  "summary": {
+    "iterations": {
+      "executed": 1,
+      "errors": 0
+    },
+    "executedRequests": {
+      "executed": 5,
+      "errors": 0
+    },
+    "prerequestScripts": {
+      "executed": 0,
+      "errors": 0
+    },
+    "postresponseScripts": {
+      "executed": 5,
+      "errors": 0
+    },
+    "tests": {
+      "executed": 6,
+      "failed": 0,
+      "passed": 6,
+      "skipped": 0
+    },
+    "timeStats": {
+      "responseAverage": 21,
+      "responseMin": 7,
+      "responseMax": 50,
+      "responseStandardDeviation": 16.407315441594946
+    }
+  },
+  "executions": [
+    {
+      "name": "Health",
+      "statusCode": 200,
+      "tests": [
+        {
+          "name": "Expected HTTP status",
+          "status": "passed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Orders",
+      "statusCode": 200,
+      "tests": [
+        {
+          "name": "Expected HTTP status",
+          "status": "passed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Unknown order",
+      "statusCode": 404,
+      "tests": [
+        {
+          "name": "Expected HTTP status",
+          "status": "passed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Missing fields",
+      "statusCode": 400,
+      "tests": [
+        {
+          "name": "Expected HTTP status",
+          "status": "passed"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Analytics",
+      "statusCode": 200,
+      "tests": [
+        {
+          "name": "Expected HTTP status",
+          "status": "passed"
+        },
+        {
+          "name": "One row per order",
+          "status": "passed"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "runError": null
+}

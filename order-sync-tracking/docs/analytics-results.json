@@ -1,0 +1,10 @@
+{
+  "orders": 45,
+  "completed": 35,
+  "openFailures": 6,
+  "everFailed": 14,
+  "recovered": 8,
+  "completionRate": 77.8,
+  "recoveryRate": 57.1,
+  "powerBiVerified": true
+}

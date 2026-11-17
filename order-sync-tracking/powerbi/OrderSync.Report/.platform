@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Order Sync"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a52fe0c8-132d-4226-b396-c21650ea7cb5"
+  }
+}

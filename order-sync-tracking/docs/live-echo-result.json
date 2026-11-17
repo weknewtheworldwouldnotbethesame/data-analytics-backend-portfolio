@@ -1,0 +1,62 @@
+{
+  "id": 51,
+  "orderNumber": "LIVE-ECHO-2001",
+  "customerName": "Fictional customer",
+  "product": "Keyboard",
+  "quantity": 1,
+  "channel": "Web",
+  "status": "Completed",
+  "createdAt": "2026-11-17T14:29:16.6332885",
+  "completedAt": "2026-11-17T14:29:17.0362097Z",
+  "lastError": "",
+  "dataOrigin": "Fictional interactive order",
+  "attempts": [
+    {
+      "id": 56,
+      "orderId": 51,
+      "attemptedAt": "2026-11-17T14:29:16.7488658Z",
+      "outcome": "Completed",
+      "errorType": "",
+      "errorMessage": "",
+      "responseBody": "{\"args\":{},\"data\":{\"orderNumber\":\"LIVE-ECHO-2001\",\"product\":\"Keyboard\",\"quantity\":1,\"channel\":\"Web\",\"scenario\":\"success\"},\"files\":{},\"form\":{},\"headers\":{\"host\":\"postman-echo.com\",\"content-type\":\"application/json; charset=utf-8\",\"traceparent\":\"00-5a4364f865f535c5dcb69a0738b9ca4c-dd67e4985af03b6b-00\",\"accept-encoding\":\"gzip, br\",\"x-forwarded-proto\":\"https\",\"content-length\":\"103\"},\"json\":{\"orderNumber\":\"LIVE-ECHO-2001\",\"product\":\"Keyboard\",\"quantity\":1,\"channel\":\"Web\",\"scenario\":\"success\"},\"url\":\"https://postman-echo.com/post\"}",
+      "durationMs": 283
+    }
+  ],
+  "events": [
+    {
+      "id": 256,
+      "orderId": 51,
+      "at": "2026-11-17T14:29:16.6332939",
+      "step": "Received",
+      "message": "Order received."
+    },
+    {
+      "id": 257,
+      "orderId": 51,
+      "at": "2026-11-17T14:29:16.633295",
+      "step": "Validated",
+      "message": "Required fields passed validation."
+    },
+    {
+      "id": 258,
+      "orderId": 51,
+      "at": "2026-11-17T14:29:16.6332952",
+      "step": "Saved",
+      "message": "Order stored in SQLite."
+    },
+    {
+      "id": 259,
+      "orderId": 51,
+      "at": "2026-11-17T14:29:16.7488661Z",
+      "step": "Sent",
+      "message": "Sent to Postman Echo."
+    },
+    {
+      "id": 260,
+      "orderId": 51,
+      "at": "2026-11-17T14:29:17.0362117Z",
+      "step": "Completed",
+      "message": "Matching order received successfully."
+    }
+  ]
+}

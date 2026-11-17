@@ -1,0 +1,30 @@
+purpose:
+  stands_in_for: A local order receiver with the Postman Echo JSON response shape.
+  unblocks: Reproducible transfer, failure, timeout, and retry checks without a warehouse account.
+assumptions:
+  - id: echo-response-shape
+    status: supported
+    claim: Postman Echo returned the submitted order number in its json object during the recorded live request.
+    reason: The actual public service returned the matching payload and HTTP success.
+    verification: A fictional order was sent on 2026-11-17 and its response was saved. This establishes JSON transport only.
+    source: docs/live-echo-result.json
+    updated_at: '2026-11-17'
+  - id: controlled-failures
+    status: supported
+    claim: The local receiver produces configured HTTP 503, timeout, and invalid-response outcomes.
+    reason: Acceptance checks exercised the running API and receiver and verified persisted failures.
+    verification: All 22 acceptance checks passed on 2026-11-17. These are local conditions, not observed warehouse behavior.
+    source: scripts/verify.py; docs/acceptance-results.json; postman/mocks/receiver/default.js
+    updated_at: '2026-11-17'
+  - id: real-provider-idempotency
+    status: unknown
+    claim: Retrying after an uncertain outcome would not create a duplicate at a real provider.
+    reason: No real warehouse contract or provider-side idempotency guarantee has been supplied.
+    verification: Local concurrent sends were blocked, but this does not establish behavior outside this process. Check provider records before retrying an uncertain outcome.
+    source: backend/Services/SyncService.cs; README.md
+    updated_at: '2026-11-17'
+fingerprints:
+  - id: local-verification
+    date: '2026-11-17'
+    commit: null
+    cli: '1.82.0'

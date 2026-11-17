@@ -1,0 +1,28 @@
+{
+  "environment": "Actual ASP.NET API, SQLite and local Postman receiver",
+  "passed": 22,
+  "checks": [
+    "Missing fields return 400",
+    "Invalid quantity returns 400",
+    "Create returns 201 and a unique ID",
+    "Creation trace records received, validated and saved",
+    "Duplicate order number returns 409",
+    "Unknown ID returns 404",
+    "Retry refuses an unsent order",
+    "Update persists a changed quantity",
+    "HTTP 503 creates a failed order and saved failure",
+    "Failure retains response and timestamp",
+    "Retry recovers the failed order",
+    "Retry keeps earlier failure history",
+    "Completed order cannot be resent",
+    "Completed order cannot be edited",
+    "timeout is stored as a failure",
+    "invalid-response is stored as a failure",
+    "Concurrent sends allow only one transfer",
+    "Concurrent send creates one attempt",
+    "Analytics counts orders once and records recovery",
+    "Status filter returns only failed orders",
+    "Order search finds the requested order",
+    "Delete removes the order"
+  ]
+}

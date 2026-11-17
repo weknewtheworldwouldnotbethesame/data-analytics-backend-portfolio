@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/.next/
+**/.pbi/
+**/*.db*
+**/.env*
+!**/.env.template
+postman/skills/
+.postman/skills.json
+tmp/
+logs/
