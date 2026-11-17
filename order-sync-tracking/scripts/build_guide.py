@@ -87,7 +87,7 @@ for path,body in [
  ('dashboard/app/page.js','Show the queue, order form, filters, and action buttons.')]:
     y=para('<b>'+path+'</b><br/>'+body,48,y,size=11)
 para('<b>Verified:</b> 22 acceptance checks, 6 Postman assertions, connection failure, restart persistence, UTC timestamps, report totals, and report filters. The saved snapshot contains 45 orders, 35 completed, 6 failed, and 4 ready to send.',48,130,size=11)
-para('<b>Still pending:</b> an independent person tries the app and records feedback. Future work includes login, a real provider contract, provider-side duplicate protection, and scheduled report refresh.',48,65,size=10)
+para('<b>Independent review:</b> another person tested the project, confirmed by the project owner on November 17, 2026. Future work includes login, a real provider contract, provider-side duplicate protection, and scheduled report refresh.',48,65,size=10)
 pdf.showPage()
 
 page(8,'A short walkthrough','Use this order when explaining how the project works.')

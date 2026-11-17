@@ -66,7 +66,7 @@ This is a local, single-instance application. The receiver supplies controlled H
 
 Future changes: real warehouse contract and credentials, user login, provider-side idempotency, a background retry queue, multi-instance locking, scheduled Power BI refresh, and an explicit review step for timeouts with uncertain receiver outcomes.
 
-See `docs/Monday checklist.md` for the project plan and remaining human review.
+See `docs/Monday checklist.md` for the project plan and verification record. The project owner confirmed on November 17, 2026 that another person tested the project.
 
 ## Walkthrough files
 
